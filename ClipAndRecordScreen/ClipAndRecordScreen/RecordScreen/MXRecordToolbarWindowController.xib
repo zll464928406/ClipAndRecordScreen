@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="12120"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="MXRecordToolbarWindowController">
+            <connections>
+                <outlet property="backgroundImageView" destination="oD6-fR-3HR" id="Efe-yh-2Rx"/>
+                <outlet property="durationTextField" destination="Gsb-Hb-4Et" id="gav-ai-66K"/>
+                <outlet property="recordButton" destination="ORW-ZD-x1X" id="gFM-sM-SJ4"/>
+                <outlet property="stopButton" destination="hiF-ll-ElK" id="RYe-tC-r52"/>
+                <outlet property="window" destination="F0z-JX-Cv5" id="gIp-Ho-8D9"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <window title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" hasShadow="NO" oneShot="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="F0z-JX-Cv5">
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="196" y="240" width="108" height="23"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1057"/>
+            <view key="contentView" id="se5-gp-TjO">
+                <rect key="frame" x="0.0" y="0.0" width="108" height="23"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="oD6-fR-3HR">
+                        <rect key="frame" x="0.0" y="0.0" width="108" height="23"/>
+                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="record_control_bar" id="su4-gH-GfS"/>
+                    </imageView>
+                    <button translatesAutoresizingMaskIntoConstraints="NO" id="hiF-ll-ElK">
+                        <rect key="frame" x="84" y="2" width="20" height="20"/>
+                        <buttonCell key="cell" type="smallSquare" bezelStyle="smallSquare" image="stop" imagePosition="overlaps" alignment="center" state="on" imageScaling="proportionallyDown" inset="2" id="qWu-sD-sOI">
+                            <behavior key="behavior" lightByContents="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="stopButtonClick:" target="-2" id="W0p-uA-CCm"/>
+                        </connections>
+                    </button>
+                    <button wantsLayer="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ORW-ZD-x1X">
+                        <rect key="frame" x="4" y="2" width="20" height="20"/>
+                        <buttonCell key="cell" type="smallSquare" bezelStyle="smallSquare" image="pause" imagePosition="overlaps" alignment="center" state="on" imageScaling="proportionallyDown" inset="2" id="Yef-s4-Caf">
+                            <behavior key="behavior" lightByContents="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="recordButtonClick:" target="-2" id="eng-iz-bnE"/>
+                        </connections>
+                    </button>
+                    <textField wantsLayer="YES" horizontalHuggingPriority="251" verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gsb-Hb-4Et">
+                        <rect key="frame" x="27" y="2" width="56" height="19"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="00:00s" id="HpZ-la-1Pf">
+                            <font key="font" metaFont="system" size="16"/>
+                            <color key="textColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="ORW-ZD-x1X" firstAttribute="leading" secondItem="se5-gp-TjO" secondAttribute="leading" constant="4" id="8bi-dj-ERH"/>
+                    <constraint firstItem="oD6-fR-3HR" firstAttribute="leading" secondItem="se5-gp-TjO" secondAttribute="leading" id="CC0-kk-81s"/>
+                    <constraint firstAttribute="bottom" secondItem="oD6-fR-3HR" secondAttribute="bottom" id="VQ0-t1-JOa"/>
+                    <constraint firstAttribute="trailing" secondItem="hiF-ll-ElK" secondAttribute="trailing" constant="4" id="XY8-su-cdv"/>
+                    <constraint firstAttribute="trailing" secondItem="oD6-fR-3HR" secondAttribute="trailing" id="apA-lZ-U8e"/>
+                    <constraint firstItem="oD6-fR-3HR" firstAttribute="top" secondItem="se5-gp-TjO" secondAttribute="top" id="bwr-4j-PE8"/>
+                    <constraint firstAttribute="centerY" secondItem="Gsb-Hb-4Et" secondAttribute="centerY" id="fO4-gQ-uZm"/>
+                    <constraint firstAttribute="centerX" secondItem="Gsb-Hb-4Et" secondAttribute="centerX" id="gPr-wk-zJZ"/>
+                    <constraint firstAttribute="centerY" secondItem="hiF-ll-ElK" secondAttribute="centerY" constant="0.5" id="jYg-R7-AtH"/>
+                    <constraint firstAttribute="centerY" secondItem="ORW-ZD-x1X" secondAttribute="centerY" id="jnk-Uq-OeH"/>
+                </constraints>
+            </view>
+            <connections>
+                <outlet property="delegate" destination="-2" id="0bl-1N-AYu"/>
+            </connections>
+        </window>
+    </objects>
+    <resources>
+        <image name="pause" width="20" height="20"/>
+        <image name="record_control_bar" width="108" height="23"/>
+        <image name="stop" width="20" height="20"/>
+    </resources>
+</document>

@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3006D3F2126C0D7004C35FB /* MXShowFileWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3006D3D2126C0D7004C35FB /* MXShowFileWindowController.m */; };
+		A3006D402126C0D7004C35FB /* MXShowFileWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3006D3E2126C0D7004C35FB /* MXShowFileWindowController.xib */; };
+		A3415CCD2126A0FB003348EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3415CCC2126A0FB003348EF /* AppDelegate.m */; };
+		A3415CCF2126A0FC003348EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3415CCE2126A0FC003348EF /* Assets.xcassets */; };
+		A3415CD22126A0FC003348EF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3415CD02126A0FC003348EF /* MainMenu.xib */; };
+		A3415CD52126A0FC003348EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3415CD42126A0FC003348EF /* main.m */; };
+		A3415CEA2126A262003348EF /* MXClipView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3415CE12126A262003348EF /* MXClipView.m */; };
+		A3415CEB2126A262003348EF /* MXClipToolbarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3415CE32126A262003348EF /* MXClipToolbarViewController.xib */; };
+		A3415CEC2126A262003348EF /* MXClipWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = A3415CE42126A262003348EF /* MXClipWindow.m */; };
+		A3415CED2126A262003348EF /* MXClipScreenManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A3415CE52126A262003348EF /* MXClipScreenManager.m */; };
+		A3415CEE2126A262003348EF /* MXClipWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3415CE62126A262003348EF /* MXClipWindowController.xib */; };
+		A3415CEF2126A262003348EF /* MXClipToolbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3415CE82126A262003348EF /* MXClipToolbarViewController.m */; };
+		A3415CF02126A262003348EF /* MXClipWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3415CE92126A262003348EF /* MXClipWindowController.m */; };
+		A3415CF42126A2CC003348EF /* NSButton+TextColor.m in Sources */ = {isa = PBXBuildFile; fileRef = A3415CF22126A2CC003348EF /* NSButton+TextColor.m */; };
+		A3415CF72126A30D003348EF /* GKResizeableCropOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3415CF52126A30D003348EF /* GKResizeableCropOverlayView.m */; };
+		A3415CFA2126A32A003348EF /* GKImageCropOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3415CF82126A32A003348EF /* GKImageCropOverlayView.m */; };
+		A3415CFD2126A343003348EF /* GKCropBorderView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3415CFC2126A343003348EF /* GKCropBorderView.m */; };
+		A3415D002126A354003348EF /* GKToolbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3415CFE2126A354003348EF /* GKToolbarView.m */; };
+		A3415D032126A388003348EF /* SnipUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A3415D012126A388003348EF /* SnipUtil.m */; };
+		A3415D062126A3A3003348EF /* NSImage+Screenshot.m in Sources */ = {isa = PBXBuildFile; fileRef = A3415D052126A3A3003348EF /* NSImage+Screenshot.m */; };
+		A3415D092126A3BA003348EF /* NSScreen+PointConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = A3415D072126A3BA003348EF /* NSScreen+PointConversion.m */; };
+		A3415D0C2126A436003348EF /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A3415D0B2126A436003348EF /* NSString+Extension.m */; };
+		A3415D0F2126A497003348EF /* NSValue+CGPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = A3415D0D2126A496003348EF /* NSValue+CGPoint.m */; };
+		A3415D122126A4CF003348EF /* MXGlobalMonitor.mm in Sources */ = {isa = PBXBuildFile; fileRef = A3415D112126A4CF003348EF /* MXGlobalMonitor.mm */; };
+		A3415D152126A510003348EF /* NSColor+Moxtra.m in Sources */ = {isa = PBXBuildFile; fileRef = A3415D142126A510003348EF /* NSColor+Moxtra.m */; };
+		A3415D242126A919003348EF /* MXRecordToolbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3415D172126A919003348EF /* MXRecordToolbarViewController.m */; };
+		A3415D252126A919003348EF /* MXRecordToolbarWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3415D182126A919003348EF /* MXRecordToolbarWindowController.xib */; };
+		A3415D262126A919003348EF /* MXRecordScreenManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A3415D192126A919003348EF /* MXRecordScreenManager.m */; };
+		A3415D272126A919003348EF /* MXRecordScreenWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3415D1A2126A919003348EF /* MXRecordScreenWindowController.xib */; };
+		A3415D282126A919003348EF /* MXRecordToolbarWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3415D1B2126A919003348EF /* MXRecordToolbarWindowController.m */; };
+		A3415D292126A919003348EF /* MXRecordScreenWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3415D1C2126A919003348EF /* MXRecordScreenWindowController.m */; };
+		A3415D2A2126A919003348EF /* MXCaptureScreenSession.m in Sources */ = {isa = PBXBuildFile; fileRef = A3415D1D2126A919003348EF /* MXCaptureScreenSession.m */; };
+		A3415D2B2126A919003348EF /* MXRecordToolbarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3415D202126A919003348EF /* MXRecordToolbarViewController.xib */; };
+		A3415D302126AAEE003348EF /* MXButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A3415D2E2126AAEE003348EF /* MXButtonCell.m */; };
+		A3415D312126AAEE003348EF /* MXButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A3415D2F2126AAEE003348EF /* MXButton.m */; };
+		A3415D362126AB63003348EF /* CircleCounterView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3415D332126AB63003348EF /* CircleCounterView.m */; };
+		A3415D372126AB63003348EF /* CircleDownCounter.m in Sources */ = {isa = PBXBuildFile; fileRef = A3415D352126AB63003348EF /* CircleDownCounter.m */; };
+		A3415D3A2126AB96003348EF /* MXAlertBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = A3415D392126AB96003348EF /* MXAlertBlocks.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A3006D3C2126C0D7004C35FB /* MXShowFileWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MXShowFileWindowController.h; sourceTree = "<group>"; };
+		A3006D3D2126C0D7004C35FB /* MXShowFileWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MXShowFileWindowController.m; sourceTree = "<group>"; };
+		A3006D3E2126C0D7004C35FB /* MXShowFileWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MXShowFileWindowController.xib; sourceTree = "<group>"; };
+		A3415CC82126A0FB003348EF /* ClipAndRecordScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClipAndRecordScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3415CCB2126A0FB003348EF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A3415CCC2126A0FB003348EF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A3415CCE2126A0FC003348EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3415CD12126A0FC003348EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A3415CD32126A0FC003348EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3415CD42126A0FC003348EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A3415CD62126A0FC003348EF /* ClipAndRecordScreen.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ClipAndRecordScreen.entitlements; sourceTree = "<group>"; };
+		A3415CDE2126A262003348EF /* MXClipWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXClipWindow.h; sourceTree = "<group>"; };
+		A3415CDF2126A262003348EF /* MXClipScreenManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXClipScreenManager.h; sourceTree = "<group>"; };
+		A3415CE02126A262003348EF /* MXClipToolbarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXClipToolbarViewController.h; sourceTree = "<group>"; };
+		A3415CE12126A262003348EF /* MXClipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXClipView.m; sourceTree = "<group>"; };
+		A3415CE22126A262003348EF /* MXClipWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXClipWindowController.h; sourceTree = "<group>"; };
+		A3415CE32126A262003348EF /* MXClipToolbarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXClipToolbarViewController.xib; sourceTree = "<group>"; };
+		A3415CE42126A262003348EF /* MXClipWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXClipWindow.m; sourceTree = "<group>"; };
+		A3415CE52126A262003348EF /* MXClipScreenManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXClipScreenManager.m; sourceTree = "<group>"; };
+		A3415CE62126A262003348EF /* MXClipWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXClipWindowController.xib; sourceTree = "<group>"; };
+		A3415CE72126A262003348EF /* MXClipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXClipView.h; sourceTree = "<group>"; };
+		A3415CE82126A262003348EF /* MXClipToolbarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXClipToolbarViewController.m; sourceTree = "<group>"; };
+		A3415CE92126A262003348EF /* MXClipWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXClipWindowController.m; sourceTree = "<group>"; };
+		A3415CF22126A2CC003348EF /* NSButton+TextColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSButton+TextColor.m"; sourceTree = "<group>"; };
+		A3415CF32126A2CC003348EF /* NSButton+TextColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSButton+TextColor.h"; sourceTree = "<group>"; };
+		A3415CF52126A30D003348EF /* GKResizeableCropOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GKResizeableCropOverlayView.m; sourceTree = "<group>"; };
+		A3415CF62126A30D003348EF /* GKResizeableCropOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GKResizeableCropOverlayView.h; sourceTree = "<group>"; };
+		A3415CF82126A32A003348EF /* GKImageCropOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GKImageCropOverlayView.m; sourceTree = "<group>"; };
+		A3415CF92126A32A003348EF /* GKImageCropOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GKImageCropOverlayView.h; sourceTree = "<group>"; };
+		A3415CFB2126A343003348EF /* GKCropBorderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GKCropBorderView.h; sourceTree = "<group>"; };
+		A3415CFC2126A343003348EF /* GKCropBorderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GKCropBorderView.m; sourceTree = "<group>"; };
+		A3415CFE2126A354003348EF /* GKToolbarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GKToolbarView.m; sourceTree = "<group>"; };
+		A3415CFF2126A354003348EF /* GKToolbarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GKToolbarView.h; sourceTree = "<group>"; };
+		A3415D012126A388003348EF /* SnipUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnipUtil.m; sourceTree = "<group>"; };
+		A3415D022126A388003348EF /* SnipUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnipUtil.h; sourceTree = "<group>"; };
+		A3415D042126A3A3003348EF /* NSImage+Screenshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSImage+Screenshot.h"; sourceTree = "<group>"; };
+		A3415D052126A3A3003348EF /* NSImage+Screenshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSImage+Screenshot.m"; sourceTree = "<group>"; };
+		A3415D072126A3BA003348EF /* NSScreen+PointConversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSScreen+PointConversion.m"; sourceTree = "<group>"; };
+		A3415D082126A3BA003348EF /* NSScreen+PointConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSScreen+PointConversion.h"; sourceTree = "<group>"; };
+		A3415D0A2126A436003348EF /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		A3415D0B2126A436003348EF /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		A3415D0D2126A496003348EF /* NSValue+CGPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSValue+CGPoint.m"; sourceTree = "<group>"; };
+		A3415D0E2126A497003348EF /* NSValue+CGPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSValue+CGPoint.h"; sourceTree = "<group>"; };
+		A3415D102126A4CF003348EF /* MXGlobalMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXGlobalMonitor.h; sourceTree = "<group>"; };
+		A3415D112126A4CF003348EF /* MXGlobalMonitor.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MXGlobalMonitor.mm; sourceTree = "<group>"; };
+		A3415D132126A510003348EF /* NSColor+Moxtra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSColor+Moxtra.h"; sourceTree = "<group>"; };
+		A3415D142126A510003348EF /* NSColor+Moxtra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSColor+Moxtra.m"; sourceTree = "<group>"; };
+		A3415D172126A919003348EF /* MXRecordToolbarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRecordToolbarViewController.m; sourceTree = "<group>"; };
+		A3415D182126A919003348EF /* MXRecordToolbarWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXRecordToolbarWindowController.xib; sourceTree = "<group>"; };
+		A3415D192126A919003348EF /* MXRecordScreenManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRecordScreenManager.m; sourceTree = "<group>"; };
+		A3415D1A2126A919003348EF /* MXRecordScreenWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXRecordScreenWindowController.xib; sourceTree = "<group>"; };
+		A3415D1B2126A919003348EF /* MXRecordToolbarWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRecordToolbarWindowController.m; sourceTree = "<group>"; };
+		A3415D1C2126A919003348EF /* MXRecordScreenWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRecordScreenWindowController.m; sourceTree = "<group>"; };
+		A3415D1D2126A919003348EF /* MXCaptureScreenSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXCaptureScreenSession.m; sourceTree = "<group>"; };
+		A3415D1E2126A919003348EF /* MXRecordToolbarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRecordToolbarViewController.h; sourceTree = "<group>"; };
+		A3415D1F2126A919003348EF /* MXRecordScreenManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRecordScreenManager.h; sourceTree = "<group>"; };
+		A3415D202126A919003348EF /* MXRecordToolbarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXRecordToolbarViewController.xib; sourceTree = "<group>"; };
+		A3415D212126A919003348EF /* MXCaptureScreenSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXCaptureScreenSession.h; sourceTree = "<group>"; };
+		A3415D222126A919003348EF /* MXRecordScreenWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRecordScreenWindowController.h; sourceTree = "<group>"; };
+		A3415D232126A919003348EF /* MXRecordToolbarWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRecordToolbarWindowController.h; sourceTree = "<group>"; };
+		A3415D2C2126AAEE003348EF /* MXButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXButton.h; sourceTree = "<group>"; };
+		A3415D2D2126AAEE003348EF /* MXButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXButtonCell.h; sourceTree = "<group>"; };
+		A3415D2E2126AAEE003348EF /* MXButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXButtonCell.m; sourceTree = "<group>"; };
+		A3415D2F2126AAEE003348EF /* MXButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXButton.m; sourceTree = "<group>"; };
+		A3415D322126AB63003348EF /* CircleDownCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleDownCounter.h; sourceTree = "<group>"; };
+		A3415D332126AB63003348EF /* CircleCounterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleCounterView.m; sourceTree = "<group>"; };
+		A3415D342126AB63003348EF /* CircleCounterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleCounterView.h; sourceTree = "<group>"; };
+		A3415D352126AB63003348EF /* CircleDownCounter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleDownCounter.m; sourceTree = "<group>"; };
+		A3415D382126AB96003348EF /* MXAlertBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXAlertBlocks.h; sourceTree = "<group>"; };
+		A3415D392126AB96003348EF /* MXAlertBlocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXAlertBlocks.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3415CC52126A0FB003348EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3415CBF2126A0FB003348EF = {
+			isa = PBXGroup;
+			children = (
+				A3415CCA2126A0FB003348EF /* ClipAndRecordScreen */,
+				A3415CC92126A0FB003348EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3415CC92126A0FB003348EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3415CC82126A0FB003348EF /* ClipAndRecordScreen.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3415CCA2126A0FB003348EF /* ClipAndRecordScreen */ = {
+			isa = PBXGroup;
+			children = (
+				A3415CDC2126A23E003348EF /* ClipAndRecordScreen */,
+				A3415CCB2126A0FB003348EF /* AppDelegate.h */,
+				A3415CCC2126A0FB003348EF /* AppDelegate.m */,
+				A3006D3C2126C0D7004C35FB /* MXShowFileWindowController.h */,
+				A3006D3D2126C0D7004C35FB /* MXShowFileWindowController.m */,
+				A3006D3E2126C0D7004C35FB /* MXShowFileWindowController.xib */,
+				A3415CCE2126A0FC003348EF /* Assets.xcassets */,
+				A3415CD02126A0FC003348EF /* MainMenu.xib */,
+				A3415CD32126A0FC003348EF /* Info.plist */,
+				A3415CD42126A0FC003348EF /* main.m */,
+				A3415CD62126A0FC003348EF /* ClipAndRecordScreen.entitlements */,
+			);
+			path = ClipAndRecordScreen;
+			sourceTree = "<group>";
+		};
+		A3415CDC2126A23E003348EF /* ClipAndRecordScreen */ = {
+			isa = PBXGroup;
+			children = (
+				A3415CDD2126A262003348EF /* ClipScreen */,
+				A3415D162126A919003348EF /* RecordScreen */,
+				A3415CF12126A2A6003348EF /* extension */,
+			);
+			path = ClipAndRecordScreen;
+			sourceTree = "<group>";
+		};
+		A3415CDD2126A262003348EF /* ClipScreen */ = {
+			isa = PBXGroup;
+			children = (
+				A3415CDF2126A262003348EF /* MXClipScreenManager.h */,
+				A3415CE52126A262003348EF /* MXClipScreenManager.m */,
+				A3415CE22126A262003348EF /* MXClipWindowController.h */,
+				A3415CE92126A262003348EF /* MXClipWindowController.m */,
+				A3415CE62126A262003348EF /* MXClipWindowController.xib */,
+				A3415CE02126A262003348EF /* MXClipToolbarViewController.h */,
+				A3415CE82126A262003348EF /* MXClipToolbarViewController.m */,
+				A3415CE32126A262003348EF /* MXClipToolbarViewController.xib */,
+				A3415CDE2126A262003348EF /* MXClipWindow.h */,
+				A3415CE42126A262003348EF /* MXClipWindow.m */,
+				A3415CE72126A262003348EF /* MXClipView.h */,
+				A3415CE12126A262003348EF /* MXClipView.m */,
+			);
+			path = ClipScreen;
+			sourceTree = "<group>";
+		};
+		A3415CF12126A2A6003348EF /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				A3415CF32126A2CC003348EF /* NSButton+TextColor.h */,
+				A3415CF22126A2CC003348EF /* NSButton+TextColor.m */,
+				A3415D042126A3A3003348EF /* NSImage+Screenshot.h */,
+				A3415D052126A3A3003348EF /* NSImage+Screenshot.m */,
+				A3415D082126A3BA003348EF /* NSScreen+PointConversion.h */,
+				A3415D072126A3BA003348EF /* NSScreen+PointConversion.m */,
+				A3415D0A2126A436003348EF /* NSString+Extension.h */,
+				A3415D0B2126A436003348EF /* NSString+Extension.m */,
+				A3415D0E2126A497003348EF /* NSValue+CGPoint.h */,
+				A3415D0D2126A496003348EF /* NSValue+CGPoint.m */,
+				A3415D132126A510003348EF /* NSColor+Moxtra.h */,
+				A3415D142126A510003348EF /* NSColor+Moxtra.m */,
+				A3415D022126A388003348EF /* SnipUtil.h */,
+				A3415D012126A388003348EF /* SnipUtil.m */,
+				A3415CF62126A30D003348EF /* GKResizeableCropOverlayView.h */,
+				A3415CF52126A30D003348EF /* GKResizeableCropOverlayView.m */,
+				A3415CF92126A32A003348EF /* GKImageCropOverlayView.h */,
+				A3415CF82126A32A003348EF /* GKImageCropOverlayView.m */,
+				A3415CFB2126A343003348EF /* GKCropBorderView.h */,
+				A3415CFC2126A343003348EF /* GKCropBorderView.m */,
+				A3415CFF2126A354003348EF /* GKToolbarView.h */,
+				A3415CFE2126A354003348EF /* GKToolbarView.m */,
+				A3415D342126AB63003348EF /* CircleCounterView.h */,
+				A3415D332126AB63003348EF /* CircleCounterView.m */,
+				A3415D322126AB63003348EF /* CircleDownCounter.h */,
+				A3415D352126AB63003348EF /* CircleDownCounter.m */,
+				A3415D102126A4CF003348EF /* MXGlobalMonitor.h */,
+				A3415D112126A4CF003348EF /* MXGlobalMonitor.mm */,
+				A3415D2C2126AAEE003348EF /* MXButton.h */,
+				A3415D2F2126AAEE003348EF /* MXButton.m */,
+				A3415D2D2126AAEE003348EF /* MXButtonCell.h */,
+				A3415D2E2126AAEE003348EF /* MXButtonCell.m */,
+				A3415D382126AB96003348EF /* MXAlertBlocks.h */,
+				A3415D392126AB96003348EF /* MXAlertBlocks.m */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
+		A3415D162126A919003348EF /* RecordScreen */ = {
+			isa = PBXGroup;
+			children = (
+				A3415D1F2126A919003348EF /* MXRecordScreenManager.h */,
+				A3415D192126A919003348EF /* MXRecordScreenManager.m */,
+				A3415D222126A919003348EF /* MXRecordScreenWindowController.h */,
+				A3415D1C2126A919003348EF /* MXRecordScreenWindowController.m */,
+				A3415D1A2126A919003348EF /* MXRecordScreenWindowController.xib */,
+				A3415D232126A919003348EF /* MXRecordToolbarWindowController.h */,
+				A3415D1B2126A919003348EF /* MXRecordToolbarWindowController.m */,
+				A3415D182126A919003348EF /* MXRecordToolbarWindowController.xib */,
+				A3415D1E2126A919003348EF /* MXRecordToolbarViewController.h */,
+				A3415D172126A919003348EF /* MXRecordToolbarViewController.m */,
+				A3415D202126A919003348EF /* MXRecordToolbarViewController.xib */,
+				A3415D212126A919003348EF /* MXCaptureScreenSession.h */,
+				A3415D1D2126A919003348EF /* MXCaptureScreenSession.m */,
+			);
+			path = RecordScreen;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3415CC72126A0FB003348EF /* ClipAndRecordScreen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3415CD92126A0FC003348EF /* Build configuration list for PBXNativeTarget "ClipAndRecordScreen" */;
+			buildPhases = (
+				A3415CC42126A0FB003348EF /* Sources */,
+				A3415CC52126A0FB003348EF /* Frameworks */,
+				A3415CC62126A0FB003348EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClipAndRecordScreen;
+			productName = ClipAndRecordScreen;
+			productReference = A3415CC82126A0FB003348EF /* ClipAndRecordScreen.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3415CC02126A0FB003348EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = moxtra;
+				TargetAttributes = {
+					A3415CC72126A0FB003348EF = {
+						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = A3415CC32126A0FB003348EF /* Build configuration list for PBXProject "ClipAndRecordScreen" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3415CBF2126A0FB003348EF;
+			productRefGroup = A3415CC92126A0FB003348EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3415CC72126A0FB003348EF /* ClipAndRecordScreen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3415CC62126A0FB003348EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3415CEE2126A262003348EF /* MXClipWindowController.xib in Resources */,
+				A3006D402126C0D7004C35FB /* MXShowFileWindowController.xib in Resources */,
+				A3415CCF2126A0FC003348EF /* Assets.xcassets in Resources */,
+				A3415CD22126A0FC003348EF /* MainMenu.xib in Resources */,
+				A3415D252126A919003348EF /* MXRecordToolbarWindowController.xib in Resources */,
+				A3415CEB2126A262003348EF /* MXClipToolbarViewController.xib in Resources */,
+				A3415D272126A919003348EF /* MXRecordScreenWindowController.xib in Resources */,
+				A3415D2B2126A919003348EF /* MXRecordToolbarViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3415CC42126A0FB003348EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3415D3A2126AB96003348EF /* MXAlertBlocks.m in Sources */,
+				A3415D242126A919003348EF /* MXRecordToolbarViewController.m in Sources */,
+				A3415CD52126A0FC003348EF /* main.m in Sources */,
+				A3415CF72126A30D003348EF /* GKResizeableCropOverlayView.m in Sources */,
+				A3415D002126A354003348EF /* GKToolbarView.m in Sources */,
+				A3415CF02126A262003348EF /* MXClipWindowController.m in Sources */,
+				A3415D292126A919003348EF /* MXRecordScreenWindowController.m in Sources */,
+				A3006D3F2126C0D7004C35FB /* MXShowFileWindowController.m in Sources */,
+				A3415D312126AAEE003348EF /* MXButton.m in Sources */,
+				A3415D302126AAEE003348EF /* MXButtonCell.m in Sources */,
+				A3415D282126A919003348EF /* MXRecordToolbarWindowController.m in Sources */,
+				A3415CFD2126A343003348EF /* GKCropBorderView.m in Sources */,
+				A3415D262126A919003348EF /* MXRecordScreenManager.m in Sources */,
+				A3415CED2126A262003348EF /* MXClipScreenManager.m in Sources */,
+				A3415D062126A3A3003348EF /* NSImage+Screenshot.m in Sources */,
+				A3415D092126A3BA003348EF /* NSScreen+PointConversion.m in Sources */,
+				A3415CF42126A2CC003348EF /* NSButton+TextColor.m in Sources */,
+				A3415D152126A510003348EF /* NSColor+Moxtra.m in Sources */,
+				A3415CCD2126A0FB003348EF /* AppDelegate.m in Sources */,
+				A3415D0F2126A497003348EF /* NSValue+CGPoint.m in Sources */,
+				A3415D362126AB63003348EF /* CircleCounterView.m in Sources */,
+				A3415D2A2126A919003348EF /* MXCaptureScreenSession.m in Sources */,
+				A3415D032126A388003348EF /* SnipUtil.m in Sources */,
+				A3415CEF2126A262003348EF /* MXClipToolbarViewController.m in Sources */,
+				A3415CEC2126A262003348EF /* MXClipWindow.m in Sources */,
+				A3415D122126A4CF003348EF /* MXGlobalMonitor.mm in Sources */,
+				A3415D372126AB63003348EF /* CircleDownCounter.m in Sources */,
+				A3415CEA2126A262003348EF /* MXClipView.m in Sources */,
+				A3415CFA2126A32A003348EF /* GKImageCropOverlayView.m in Sources */,
+				A3415D0C2126A436003348EF /* NSString+Extension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A3415CD02126A0FC003348EF /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3415CD12126A0FC003348EF /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3415CD72126A0FC003348EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A3415CD82126A0FC003348EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A3415CDA2126A0FC003348EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = L5X58D2989;
+				INFOPLIST_FILE = ClipAndRecordScreen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = com.moxtra.ClipAndRecordScreen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A3415CDB2126A0FC003348EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = L5X58D2989;
+				INFOPLIST_FILE = ClipAndRecordScreen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = com.moxtra.ClipAndRecordScreen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3415CC32126A0FB003348EF /* Build configuration list for PBXProject "ClipAndRecordScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3415CD72126A0FC003348EF /* Debug */,
+				A3415CD82126A0FC003348EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3415CD92126A0FC003348EF /* Build configuration list for PBXNativeTarget "ClipAndRecordScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3415CDA2126A0FC003348EF /* Debug */,
+				A3415CDB2126A0FC003348EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3415CC02126A0FB003348EF /* Project object */;
+}
